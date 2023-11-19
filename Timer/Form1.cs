@@ -82,7 +82,7 @@ namespace Timer
                 case 1:
                     {
                         button1.Text = "恢复计时";
-                        button2.Enabled = false;
+                        button2.Enabled = true;
                         timer1.Stop();
                         Timer_Status = 2;
 
